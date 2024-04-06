@@ -21,8 +21,6 @@ SO THAT my company can compete with other e-commerce companies
 ## Public Archive First attempt repo 
  - https://github.com/Jameshughes2009/ORM-module13
 
-
-
  ## REPO and Video Link
  [James Hughes](https://github.com/Jameshughes2009/ORM-week13)! Please find the link to my repo
 
