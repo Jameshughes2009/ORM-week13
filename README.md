@@ -13,11 +13,11 @@ SO THAT my company can compete with other e-commerce companies
 
 
 ## Built Using 
- - "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "nodemon": "^2.0.12",
-    "sequelize": "^6.29.3"
+-  "dotenv": "^8.2.0",
+- "express": "^4.17.1",
+- "mysql2": "^2.1.0",
+- "nodemon": "^2.0.12",
+- "sequelize": "^6.29.3"
 ## Public Archive First attempt repo 
  - https://github.com/Jameshughes2009/ORM-module13
 
