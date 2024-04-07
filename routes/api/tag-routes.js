@@ -46,9 +46,9 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.put('/:id', (req, res) => {
-  // update a tag's name by its `id` value
-});
+// router.put('/:id', (req, res) => {
+//   // update a tag's name by its `id` value
+// });
 
 // router.delete('/:id', (req, res) => {
 //   // delete on tag by its `id` value
@@ -64,5 +64,19 @@ router.delete('/:id', async (req, res) => {
     res.status(500).json({message:"failed to delete"})
   }
 });
+
+// update a tag
+router.put('/:id', async (req, res) => {
+  try {
+    const updated = await Tag.update(req.body, { 
+      where: {id: req.params.id}, });
+    !updated[0]
+      ? res.status(404).json({message: "Cannot find tag with id!"})
+      : res.status(200).json(updated);
+  } catch (err) {
+    res.status(500).json({message:"Failed to Upadte"})
+  }
+});
+
 
 module.exports = router;
