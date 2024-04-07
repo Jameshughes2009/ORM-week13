@@ -15,9 +15,9 @@ router.get("/", async (req, res) => {
     });
     res.status(200).json(products);
   } catch (err) {
-    res.status(500).json({message: "Data not found!"})
+    res.status(500).json({message: "Data not found!"});
   }
-})
+});
 
 // get one product
 router.get('/:id', (req, res) => {
