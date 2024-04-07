@@ -26,8 +26,13 @@ router.put('/:id', (req, res) => {
   // update a category by its `id` value
 });
 
-router.delete('/:id', (req, res) => {
-  // delete a category by its `id` value
-});
+// router.delete('/:id', (req, res) => {
+//   // delete a category by its `id` value
+//   try {
+//     const deleted = await Tag.destroy({where: {id: req.params.id} });
+//     !deleted
+      
+//   }
+// });
 
 module.exports = router;
