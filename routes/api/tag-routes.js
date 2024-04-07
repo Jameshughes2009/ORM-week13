@@ -41,7 +41,9 @@ router.post('/', async (req, res) => {
   try {
     const tagData = await Tag.create(req.body);
     res.status(200).json(tagData);
-  } catch (err) 
+  } catch (err) {
+    res.status(400).json({ message: "Error Tag Creation Failed!"})
+  }
 });
 
 router.put('/:id', (req, res) => {
