@@ -118,7 +118,7 @@ router.delete('/:id', async (req, res) => {
       ? res.status(404).json({message:"Not found"})
       : res.status(200).json(deleted);
   } catch (err) {
-    res
+    res.status(500).json ({message: "Failed to Deleted Project", error, err})
   }
 });
 
