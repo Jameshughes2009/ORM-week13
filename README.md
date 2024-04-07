@@ -24,4 +24,12 @@ SO THAT my company can compete with other e-commerce companies
  ## REPO and Video Link
  [James Hughes](https://github.com/Jameshughes2009/ORM-week13)! Please find the link to my repo
 
- [Video Link]()
+## Video Link
+[screen-capture (2).webm](https://github.com/Jameshughes2009/ORM-week13/assets/151469326/c2120dc1-8bc2-4590-be2b-11d038e02df2)
+
+[screen-capture (2).webm](https://github.com/Jameshughes2009/ORM-week13/assets/151469326/c2120dc1-8bc2-4590-be2b-11d038e02df2)
+
+
+## Reference Used 
+ - Youtube 
+ - My Tutot Erik and My TA Sureer
