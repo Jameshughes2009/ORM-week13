@@ -14,7 +14,9 @@ router.get("/", async (req, res) => {
       include: [{model: Category}, {model: Tag}],
     });
     res.status(200).json(products);
-  } catch (err) {}
+  } catch (err) {
+    res.status(500).json({message: "Data not found!"})
+  }
 })
 
 // get one product
